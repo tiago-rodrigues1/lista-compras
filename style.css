@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    color: #1C3879;
+}
+
+body {
+    background-color: #F9F5EB;
+    overflow: hidden;
+}
+
+header {
+    text-align: center;
+}
+
+.title-header {
+    color: #F9F5EB;
+    width: 100%;
+    background-color: #1C3879;
+    padding: 2rem;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    height: 100%;
+}
+
+section header {
+    background-color: #607EAA;
+    padding: 1rem;
+}
+
+.nao-comprados-container {
+    float: left;
+    width: 50%;
+    border-right: 1px solid #EAE3D2;
+    list-style-image: url("./icons/square.svg");
+}
+
+.comprados-container {
+    float: right;
+    width: 50%;
+    border-left: 1px solid #EAE3D2;
+    list-style-image: url("./icons/check-square.svg");
+}
+
+ul {
+    width: 100%;
+    height: 100%;
+    padding: 1rem 4rem;
+}
+
+li {
+    margin: 1rem 0;
+    vertical-align: middle;
+}
+
+li::marker {
+    margin: auto 0;
+}
